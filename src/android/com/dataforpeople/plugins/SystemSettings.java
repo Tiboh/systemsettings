@@ -12,7 +12,7 @@ import android.content.Context;
 import android.provider.Settings;
 import android.app.Activity;
 
-public class Settings extends CordovaPlugin {
+public class SystemSettings extends CordovaPlugin {
 
 	@Override
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
