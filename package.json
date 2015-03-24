@@ -1,0 +1,16 @@
+{
+    "version": "1.0.1",
+    "name": "com.dataforpeople.plugins.wirelesssettings",
+    "cordova_name": "GPS Settings",
+    "description": "Display the wireless settings page",
+    "license": "Apache 2.0",
+    "keywords": [
+        "wireless",
+        " connection",
+        " settings"
+    ],
+    "platforms": [
+        "android"
+    ],
+    "engines": []
+}
