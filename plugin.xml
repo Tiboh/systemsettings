@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
     <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-            id="com.dataforpeople.plugins.wirelesssettings" version="1.0.1">
-        <name>Wireless Settings</name>
-        <description>Display the wireless settings page</description>
+            id="com.dataforpeople.plugins.systemsettings" version="1.0.1">
+        <name>System Settings</name>
+        <description>Display the system settings page</description>
         <license>Apache 2.0</license>
-        <keywords>wireless, connection, settings</keywords>
+        <keywords>system, settings</keywords>
 
-        <js-module src="www/WirelessSettings.js" name="WirelessSettings">
-            <clobbers target="window.plugins.WirelessSettings" />
+        <js-module src="www/SystemSettings.js" name="SystemSettings">
+            <clobbers target="window.plugins.SystemSettings" />
         </js-module>
 
         <platform name="android">
             <config-file target="res/xml/config.xml" parent="/*">
-                <feature name="WirelessSettings" >
-                    <param name="android-package" value="com.dataforpeople.plugins.WirelessSettings"/>
+                <feature name="SystemSettings" >
+                    <param name="android-package" value="com.dataforpeople.plugins.SystemSettings"/>
                 </feature>
             </config-file>
 
-            <source-file src="src/android/com/dataforpeople/plugins/WirelessSettings.java" target-dir="src/com/dataforpeople/plugins/" />
+            <source-file src="src/android/com/dataforpeople/plugins/SystemSettings.java" target-dir="src/com/dataforpeople/plugins/" />
         </platform>
     </plugin>

@@ -1,1 +1,1 @@
-{"source":{"type":"registry","id":"com.dataforpeople.plugins.wirelesssettings"}}
+{"source":{"type":"git","url":"https://github.com/Tiboh/systemsettings","subdir":"."}}

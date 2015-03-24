@@ -1,3 +1,3 @@
-# Cordova Wireless Settings Plugin
+# Cordova System Settings Plugin
 
-Display the wireless settings page
+Display the system settings page
