@@ -1,20 +1,20 @@
 
 var exec = require('cordova/exec');
 
-function WirelessSettings() {
+function SystemSettings() {
 }
 
-WirelessSettings.prototype.launch = function() {
-	exec(null, null, "WirelessSettings", "launch", []);
+SystemSettings.prototype.launch = function() {
+	exec(null, null, "SystemSettings", "launch", []);
 };
 
-WirelessSettings.install = function() {
+SystemSettings.install = function() {
 	if(!window.plugins) {
 		window.plugins = [];
 	}
 
-	window.plugins.WirelessSettings = new WirelessSettings();
-	return window.plugins.WirelessSettings;
+	window.plugins.SystemSettings = new SystemSettings();
+	return window.plugins.SystemSettings;
 };
 
-cordova.addConstructor(WirelessSettings.install);
+cordova.addConstructor(SystemSettings.install);
